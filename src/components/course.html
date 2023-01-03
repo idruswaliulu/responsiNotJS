@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo1-removebg-preview.png">
+    <title>Courser</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link font google  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <!-- link font awasemo 4 cdn-->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">  -->
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> 
+
+    
+
+</head>
+<body>
+    <section class="header2">
+        <nav>
+            <a href="index.html"> <img src="img/logo1-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+
+
+
+            <div class="text-box">
+                <h1>COURSE</h1>
+            </div>
+    </section>
+
+    <!----  COURSE ------>
+
+    <section class="course">
+        <h1>OUR DEPARTMENT</h1>
+        <p>Here you can choose a class according to your talent </p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>IPA</h3>
+                <p>The science department mainly focuses on studying the natural sciences. Includes physics, which studies the symptoms and properties of objects in nature, such as waves, energy, charge, power and so on</p>
+            </div>
+            <div class="course-col">
+                <h3>IPS</h3>
+                <p> The subject matter in the Department of Social Sciences (IPS) is related to human behavior and social phenomena that occur in society.</p>
+            </div>
+            <div class="course-col">
+                <h3>TEKNIK</h3>
+                <p>Starting from the manufacture of transportation, technology, public facilities, satellites, to resources, everything can be explored more deeply according to the engineering major you choose. If you take an engineering course, you will learn how to solve problems rationally and logically using science and mathematics. </p>
+            </div>
+            
+        </div>
+
+    </section>
+
+
+    <!-- Fasilitas -->
+    <section class="fasilitas">
+        <h1>FASILITAS SCHOOL</h1>
+        <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </P>
+
+        <div class="row">
+            <div class="fasilitas-col">
+                <img src="img/lb.jfif" width="100%" height="182" >
+                <h3>Library </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore distinctio consequatur dolorem ipsam, excepturi quis. Aliquam, vitae consequatur</p>
+            </div>
+            <div class="fasilitas-col">
+                <img src="img/lb1.jfif" width="100%" height="183" >
+                <h3>Canteen </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore distinctio consequatur dolorem ipsam, excepturi quis. Aliquam, vitae consequatur</p>
+            </div>
+            <div class="fasilitas-col">
+                <img src="img/lb2.jfif" width="100%" height="183" >
+                <h3>Study room</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore distinctio consequatur dolorem ipsam, excepturi quis. Aliquam, vitae consequatur</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- foother -->
+
+    <section class="foother">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nisi impedit, minima quisquam id libero autem magni eum qui voluptate <br> nostrum officia dolorem provident necessitatibus illo soluta neque porro debitis.</p>
+        <div class="icons">
+        <i class="fa fa-facebook"  ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+    </div>
+    <p>23-10-2022 &copy; Kelompok 1</p>   
+    <p>Made with <i class="fa fa-heart-o" > </i> Muhammad Idrus waliulu</p>  
+    </section>
+
+
+<!-- JavaScript untuk tombol Menu -->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+
+    }
+
+</script>
+    
+</body>
+</html>
